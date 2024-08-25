@@ -1,0 +1,1944 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 14.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[     80662,       1936]
+NotebookOptionsPosition[     71663,       1791]
+NotebookOutlinePosition[     72138,       1809]
+CellTagsIndexPosition[     72095,       1806]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Wolfram Emerging Leaders Program: High School", "Title",
+ CellChangeTimes->{{3.775999772077352*^9, 3.7759997791682997`*^9}, {
+  3.87185724524699*^9, 
+  3.87185724840657*^9}},ExpressionUUID->"c9bfac4b-9807-4588-a9c1-\
+b1843b209e9c"],
+
+Cell[CellGroupData[{
+
+Cell["Basic Information", "Section",
+ CellChangeTimes->{{3.776000898027703*^9, 
+  3.776000926441996*^9}},ExpressionUUID->"655dfefd-bdbf-4e2a-ade3-\
+2b045bdc1a3e"],
+
+Cell[CellGroupData[{
+
+Cell["Program Start", "Subsubsection",
+ CellChangeTimes->{{3.7760005741564283`*^9, 
+  3.776000578274276*^9}},ExpressionUUID->"85a1e7d2-1ea5-47b8-884d-\
+4a46ea9940d3"],
+
+Cell["August 18th, 2024", "Text",
+ CellChangeTimes->{{3.776000583026513*^9, 3.776000587142294*^9}, {
+  3.806251185453574*^9, 3.806251192186698*^9}, {3.837770988537162*^9, 
+  3.837770991398883*^9}, {3.8718572512119007`*^9, 3.871857256787532*^9}, {
+  3.89997926460918*^9, 3.89997927000487*^9}, {3.931427585545557*^9, 
+  3.931427590735626*^9}},ExpressionUUID->"70270a07-adff-444e-8ff3-\
+9f3f820ff1f0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Program End", "Subsubsection",
+ CellChangeTimes->{{3.776000591206765*^9, 
+  3.7760005933233547`*^9}},ExpressionUUID->"047633a0-4913-423d-8fec-\
+2673a608205b"],
+
+Cell["January 31st, 2024", "Text",
+ CellChangeTimes->{
+  3.776000599310999*^9, {3.77600080556643*^9, 3.776000809920076*^9}, {
+   3.776003054733222*^9, 3.77600305489042*^9}, {3.806251220850932*^9, 
+   3.806251229346492*^9}, {3.837770994687097*^9, 3.837770996735182*^9}, {
+   3.871857259238028*^9, 3.871857284330453*^9}, {3.871857765046792*^9, 
+   3.87185776536732*^9}, {3.899979272621223*^9, 3.899979274132813*^9}, {
+   3.899979325586868*^9, 3.899979329281655*^9}, {3.931427592440391*^9, 
+   3.931427600278719*^9}},ExpressionUUID->"52518c10-1706-4105-a99e-\
+335bc092f3bf"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Points of Contact", "Subsubsection",
+ CellChangeTimes->{
+  3.7760008282677717`*^9, {3.806251260663838*^9, 
+   3.806251264759404*^9}},ExpressionUUID->"d5a2135d-0094-4d50-9ef2-\
+e343e5aa4ac7"],
+
+Cell["\<\
+Rory Foulger (Program Director)
+roryf@wolfram.com
+
+Eryn Gillam (Academic Director)
+eryng@wolfram.com
+
+Danielle Rommel (Rory\[CloseCurlyQuote]s manager)
+danieller@wolfram.com\
+\>", "Text",
+ CellChangeTimes->{{3.776000831181292*^9, 3.776000838398435*^9}, {
+   3.776010462795078*^9, 3.776010466880479*^9}, {3.776078836320099*^9, 
+   3.776078887804256*^9}, 3.776078920447982*^9, {3.806251239969037*^9, 
+   3.8062512746470423`*^9}, 3.806251798571361*^9, {3.8718608634835773`*^9, 
+   3.871860874191883*^9}, {3.8718614415109797`*^9, 3.871861443710719*^9}, {
+   3.899979336392782*^9, 
+   3.899979369281244*^9}},ExpressionUUID->"c33f9ae3-8c1b-4aa2-a9ad-\
+b3d922c6a040"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Program Structure", "Chapter",
+ CellChangeTimes->{{3.776000945667739*^9, 
+  3.776000950603931*^9}},ExpressionUUID->"0a8d6108-ad1f-42b4-848d-\
+010f40303942"],
+
+Cell[CellGroupData[{
+
+Cell["What is the Wolfram Emerging Leaders Program (WELP)?", "Section",
+ CellChangeTimes->{{3.776008298729656*^9, 
+  3.776008336941451*^9}},ExpressionUUID->"1c5917e5-07c7-4563-844b-\
+20d343ecf7b0"],
+
+Cell["\<\
+WELP is a follow on from the Wolfram High School Summer Research Program, \
+designed to give opportunities for exceptional students to continue to \
+develop their skills. WELP students are organized into groups of 3-4 \
+students, and work on a project together over the course of a semester. \
+Students go through the entire product development cycle: from brainstorming \
+a potential project, to creating a minimum viable product, to iterating on \
+their idea, to producing an interesting and worthwhile project.
+
+Each group is assigned a mentor, who is available to help throughout the \
+program.
+
+Throughout the program, we run workshops on topics such as resume building, \
+panel discussions with different Wolfram teams, and content lectures.\
+\>", "Text",
+ CellChangeTimes->{{3.776008339227401*^9, 3.776008437434834*^9}, {
+  3.776008486097894*^9, 3.776008522813572*^9}, {3.776008656105704*^9, 
+  3.77600868208095*^9}, {3.806254008362069*^9, 3.806254008673626*^9}, {
+  3.871857295490221*^9, 3.871857443729243*^9}, {3.899979375174509*^9, 
+  3.899979383358947*^9}, {3.900772304033587*^9, 3.900772304554747*^9}, {
+  3.931430284748197*^9, 
+  3.931430354609005*^9}},ExpressionUUID->"5a8c7a08-4bbb-428c-bb46-\
+203a0a5dcc6c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Expectations", "Section",
+ CellChangeTimes->{{3.776010519073587*^9, 
+  3.77601052105655*^9}},ExpressionUUID->"b00289cf-43a0-4157-ac05-\
+54d868327c4d"],
+
+Cell["\<\
+We expect students to spend 3-5 hours per week working on their WELP project.\
+\
+\>", "Item",
+ CellChangeTimes->{{3.871860805132313*^9, 3.871860805421748*^9}, {
+  3.9007698018298063`*^9, 3.900769807780939*^9}, {3.9314303848735332`*^9, 
+  3.931430407606797*^9}},ExpressionUUID->"c7e710d3-f402-4978-9912-\
+b5253dd00ef2"],
+
+Cell["\<\
+Students are expected to produce something which demonstrates that you have \
+worked hard during the program. It is expected that this project should be of \
+interest to everyone in the group, and will help everyone in the group to \
+improve their skills.\
+\>", "Item",
+ CellChangeTimes->{{3.871860805132313*^9, 3.871860805421748*^9}, {
+  3.9007698018298063`*^9, 
+  3.900769807780939*^9}},ExpressionUUID->"d1d07e71-bbe2-4045-b952-\
+cf0e28addaf9"],
+
+Cell["\<\
+Students are expected to attend all workshops unless they are excused, as \
+they are all active learning seminars, so watching the recording will be a \
+significantly less valuable experience than attending the class.\
+\>", "Item",
+ CellChangeTimes->{{3.871860811218894*^9, 
+  3.871860813170794*^9}},ExpressionUUID->"cbc469be-d6c4-4b90-b4d3-\
+412317de4be0"],
+
+Cell["\<\
+We hold our students to high standards of behavior. Serious misconduct could \
+result in being excluded from the program. Minor issues should be taken to \
+Rory for mediation.\
+\>", "Item",
+ CellChangeTimes->{{3.871860817255734*^9, 
+  3.871860817409369*^9}},ExpressionUUID->"98745ffb-8350-473a-a049-\
+f45d7d3c349a"],
+
+Cell["\<\
+Students are expected to give their best to this program. However, students \
+should never sacrifice school work or sleep to meet our goals.\
+\>", "Item",
+ CellChangeTimes->{{3.8718608231882057`*^9, 
+  3.871860823390061*^9}},ExpressionUUID->"82701c97-c40b-4b5e-b5ec-\
+2bacdd57438c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Program Timeline", "Section",
+ CellChangeTimes->{{3.776008704018016*^9, 
+  3.776008713038163*^9}},ExpressionUUID->"2feb20db-dae3-46af-86bb-\
+942b3dc4bab4"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TimelinePlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Labeled", "[", 
+        RowBox[{
+         RowBox[{"DateObject", "[", "\"\<August 18th, 2024\>\"", "]"}], ",", 
+         "\"\<Program Launch\>\"", ",", " ", "Above"}], "]"}], ",", 
+       RowBox[{"Labeled", "[", 
+        RowBox[{
+         RowBox[{"DateObject", "[", "\"\<Feb 1st, 2025\>\"", "]"}], ",", 
+         "\"\<Presentation Session\>\"", ",", "Above"}], "]"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Labeled", "[", 
+        RowBox[{
+         RowBox[{"DateObject", "[", "\"\<Sept 29th, 2024\>\"", "]"}], ",", 
+         "\"\<Project Plan Check In\>\"", ",", "Above"}], "]"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Labeled", "[", 
+        RowBox[{
+         RowBox[{"DateObject", "[", "\"\<November 1st, 2024\>\"", "]"}], ",", 
+         "\"\<MVP Check In\>\"", ",", "Above"}], "]"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Labeled", "[", 
+        RowBox[{
+         TemplateBox[{
+           RowBox[{"\"Sun 5 Jan 2025\""}], 
+           RowBox[{"DateObject", "[", 
+             RowBox[{
+               RowBox[{"{", 
+                 RowBox[{"2025", ",", "1", ",", "5"}], "}"}], ",", 
+               "\"Day\""}], "]"}]},
+          "DateObject",
+          Editable->False], ",", "\"\<Final Product Check In\>\"", ",", 
+         "Above"}], "]"}]}], "\[IndentingNewLine]", "}"}], ",", 
+     RowBox[{"Labeled", "[", 
+      RowBox[{
+       RowBox[{"Interval", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"DateObject", "[", "\"\<August 18th, 2024\>\"", "]"}], ",", 
+          
+          TemplateBox[{
+            RowBox[{"\"Sun 29 Sep 2024\""}], 
+            RowBox[{"DateObject", "[", 
+              RowBox[{
+                RowBox[{"{", 
+                  RowBox[{"2024", ",", "9", ",", "29"}], "}"}], ",", 
+                "\"Day\""}], "]"}]},
+           "DateObject",
+           Editable->False]}], "}"}], "]"}], ",", 
+       "\"\<Proposal & Planning\>\""}], "]"}], ",", 
+     RowBox[{"Labeled", "[", 
+      RowBox[{
+       RowBox[{"Interval", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          TemplateBox[{
+            RowBox[{"\"Sun 29 Sep 2024\""}], 
+            RowBox[{"DateObject", "[", 
+              RowBox[{
+                RowBox[{"{", 
+                  RowBox[{"2024", ",", "9", ",", "29"}], "}"}], ",", 
+                "\"Day\""}], "]"}]},
+           "DateObject",
+           Editable->False], ",", 
+          TemplateBox[{
+            RowBox[{"\"Sun 29 Dec 2024\""}], 
+            RowBox[{"DateObject", "[", 
+              RowBox[{
+                RowBox[{"{", 
+                  RowBox[{"2024", ",", "12", ",", "29"}], "}"}], ",", 
+                "\"Day\""}], "]"}]},
+           "DateObject",
+           Editable->False]}], "}"}], "]"}], ",", "\"\<Implementation\>\""}], 
+      "]"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"Labeled", "[", 
+      RowBox[{
+       RowBox[{"Interval", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          TemplateBox[{
+            RowBox[{"\"Sun 29 Dec 2024\""}], 
+            RowBox[{"DateObject", "[", 
+              RowBox[{
+                RowBox[{"{", 
+                  RowBox[{"2024", ",", "12", ",", "29"}], "}"}], ",", 
+                "\"Day\""}], "]"}]},
+           "DateObject",
+           Editable->False], ",", 
+          TemplateBox[{
+            RowBox[{"\"Sun 26 Jan 2025\""}], 
+            RowBox[{"DateObject", "[", 
+              RowBox[{
+                RowBox[{"{", 
+                  RowBox[{"2025", ",", "1", ",", "26"}], "}"}], ",", 
+                "\"Day\""}], "]"}]},
+           "DateObject",
+           Editable->False]}], "}"}], "]"}], ",", 
+       "\"\<Polishing Computational Essay\>\""}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.806251546131513*^9, 3.806251565916638*^9}, {
+   3.8062516580441227`*^9, 3.806251661371625*^9}, {3.806251713671826*^9, 
+   3.8062517178073*^9}, {3.8062518415957947`*^9, 3.806251871216705*^9}, {
+   3.806252264401958*^9, 3.806252281877318*^9}, {3.806252457002846*^9, 
+   3.806252638540555*^9}, {3.806252713889888*^9, 3.806252903017395*^9}, {
+   3.806316494840016*^9, 3.806316496940648*^9}, 3.837770564022895*^9, {
+   3.83777065248321*^9, 3.837770726004631*^9}, 3.8377707639651117`*^9, {
+   3.837770803522873*^9, 3.8377709053485394`*^9}, {3.871857449627439*^9, 
+   3.871857469680268*^9}, 3.871857500847288*^9, {3.871857569228266*^9, 
+   3.871857642779248*^9}, {3.87185767938468*^9, 3.871857684527481*^9}, {
+   3.871857717225149*^9, 3.871857739032807*^9}, 3.871857782436538*^9, {
+   3.871859084416561*^9, 3.871859101763617*^9}, {3.871859157975253*^9, 
+   3.871859288464775*^9}, {3.871859336527143*^9, 3.8718593575599737`*^9}, {
+   3.871859445331276*^9, 3.871859484963149*^9}, {3.871859544724988*^9, 
+   3.871859616083599*^9}, {3.871859676441372*^9, 3.8718597025432*^9}, {
+   3.8718600371533127`*^9, 3.871860040718733*^9}, {3.871860219197439*^9, 
+   3.871860246423868*^9}, {3.899979413379833*^9, 3.899979444093748*^9}, {
+   3.899979485507149*^9, 3.899979579553005*^9}, {3.899979622002144*^9, 
+   3.899979629817748*^9}, {3.899979707164933*^9, 3.8999797801615477`*^9}, {
+   3.899979822632732*^9, 3.89997986443806*^9}, {3.900771309502252*^9, 
+   3.900771312773954*^9}, {3.900771826908974*^9, 3.90077182897256*^9}, {
+   3.931427622027609*^9, 3.931427622921479*^9}, {3.931427688916953*^9, 
+   3.9314277790214667`*^9}, {3.9314278100316887`*^9, 3.931427840428693*^9}, {
+   3.931427881071538*^9, 3.931427886498933*^9}, {3.9314279355542307`*^9, 
+   3.931427984940028*^9}, {3.931428106114265*^9, 3.931428234781009*^9}, {
+   3.931428276324885*^9, 3.93142833716829*^9}, {3.931428441218581*^9, 
+   3.93142845107522*^9}, {3.932555541792951*^9, 3.932555554559415*^9}},
+ CellLabel->"In[73]:=",ExpressionUUID->"9c5afafb-7911-4649-8fb0-3b9824ae7199"],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {AbsolutePointSize[0], Opacity[0], 
+    PointBox[{{3.932928*^9, 1}, {3.9473568*^9, 9}}], 
+    PointBox[NCache[{{3.932928*^9, Rational[-1, 2]}, {3.9473568*^9, 0}}, {{
+       3.932928*^9, -0.5}, {3.9473568*^9, 0}}]]}, {}, {
+    {PointSize[0], Opacity[0], 
+     PointBox[NCache[{{3.93161390205*^9, 1}, {
+        3.94872622839*^9, Rational[17, 2]}}, {{3.93161390205*^9, 1}, {
+        3.94872622839*^9, 8.5}}]]}, {
+     {RGBColor[0.368417, 0.506779, 0.709798], AbsolutePointSize[7], 
+      AbsoluteThickness[1.6], Opacity[1], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         DynamicBox[{
+           FEPrivate`If[
+            CurrentValue["MouseOver"], 
+            Directive[
+             EdgeForm[
+              Directive[
+               RGBColor[0.368417, 0.506779, 0.709798], 
+               Thickness[Large], 
+               Opacity[0.2]]], 
+             FaceForm[{
+               RGBColor[
+               0.24561133333333335`, 0.3378526666666667, 0.4731986666666667], 
+               
+               Opacity[1]}], 
+             CapForm["Round"], 
+             AbsoluteThickness[2.5], 
+             AbsolutePointSize[10], 
+             FrameBoxOptions -> {
+              BoxFrame -> 2.5, FrameStyle -> Automatic}], {}, {}], {{
+             Directive[
+              Opacity[0.2]], {
+              CapForm["Round"], 
+              
+              LineBox[{{3.9473568*^9, 2}, {
+                3.9473568*^9, 2}}]}}, {{}, {{{{}, {{{
+                   AbsolutePointSize[10], 
+                   GrayLevel[1], 
+                   PointBox[{3.9473568*^9, 2}]}, 
+                  PointBox[{3.9473568*^9, 2}]}}, {}, {}}, {}}, {{}}}}}},
+          
+          ImageSizeCache->{{1264.970636027283, 1277.470636027283}, {
+           91.29344814960746, 103.79344814960746`}}],
+         "DelayedMouseEffectStyle"],
+        StyleBox[
+         TagBox[
+          GridBox[{{
+             TemplateBox[{
+               RowBox[{"\"02/01/2025\""}], 
+               RowBox[{"DateObject", "[", 
+                 RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"2025", ",", "2", ",", "1"}], "}"}], ",", 
+                   "\"Day\"", ",", "\"Gregorian\"", ",", 
+                   RowBox[{"-", "5.`"}], ",", "\"SmearedUTC\"", ",", 
+                   RowBox[{"{", 
+                    
+                    RowBox[{
+                    "\"Month\"", ",", "\"/\"", ",", "\"Day\"", ",", "\"/\"", 
+                    ",", "\"Year\""}], "}"}]}], "]"}]}, "DateObject", 
+              Editable -> False]}}, 
+           GridBoxAlignment -> {"Columns" -> {{Right}}}, AutoDelete -> False, 
+           GridBoxItemSize -> {
+            "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], {
+          GrayLevel[0.3]}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[
+         Grid[{{
+            
+            DateObject[{2025, 2, 1}, "Day", "Gregorian", -5., "SmearedUTC", {
+             "Month", "/", "Day", "/", "Year"}]}}, Alignment -> Right], {
+          GrayLevel[0.3]}], "Tooltip"]& ]}, 
+     {RGBColor[0.922526, 0.385626, 0.209179], AbsolutePointSize[7], 
+      AbsoluteThickness[1.6], Opacity[1], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         DynamicBox[{
+           FEPrivate`If[
+            CurrentValue["MouseOver"], 
+            Directive[
+             EdgeForm[
+              Directive[
+               RGBColor[0.922526, 0.385626, 0.209179], 
+               Thickness[Large], 
+               Opacity[0.2]]], 
+             FaceForm[{
+               RGBColor[
+               0.6150173333333333, 0.25708400000000003`, 
+                0.13945266666666667`], 
+               Opacity[1]}], 
+             CapForm["Round"], 
+             AbsoluteThickness[2.5], 
+             AbsolutePointSize[10], 
+             FrameBoxOptions -> {
+              BoxFrame -> 2.5, FrameStyle -> Automatic}], {}, {}], {{{
+              Directive[
+               Opacity[0.2]], {
+               Directive[
+                Opacity[0.2]], 
+               EdgeForm[], 
+               
+               RectangleBox[{3.9444192*^9, 5}, {
+                3.9468384*^9, 5}]}}, {{}, {{{{}, {{{
+                    GrayLevel[1], 
+                    AbsoluteThickness[2], 
+                    LineBox[{{
+                    Offset[{0, -1}, {3.9444192*^9, 5}], 
+                    Offset[{0, -1}, {3.9468384*^9, 5}]}, {
+                    Offset[{0, 1}, {3.9444192*^9, 5}], 
+                    Offset[{0, 1}, {3.9468384*^9, 5}]}}]}, {
+                    AbsolutePointSize[10], 
+                    GrayLevel[1], 
+                    PointBox[{{3.9444192*^9, 5}, {3.9468384*^9, 5}}]}, 
+                   PointBox[{{3.9444192*^9, 5}, {3.9468384*^9, 5}}], 
+                   LineBox[{{3.9444192*^9, 5}, {3.9468384*^9, 5}}]}}, {}, {{
+                   AbsolutePointSize[4], 
+                   GrayLevel[1], 
+                   
+                   PointBox[{{3.9444192*^9, 5}, {
+                    3.9468384*^9, 5}}]}}}, {}}, {{}, {}}}}}, {{
+              CapForm["Butt"], {
+               GrayLevel[1], 
+               AbsoluteThickness[4], 
+               BSplineCurveBox[{{3.9444192*^9, 7}, 
+                 Offset[{0, -10}, {3.9444192*^9, 7}], 
+                 Offset[{0, -10}, {3.9444192*^9, 7}], 
+                 Offset[{0, 10}, {3.9444192*^9, 5}], 
+                 Offset[{0, 10}, {3.9444192*^9, 5}], 
+                 Offset[{0, 4}, {3.9444192*^9, 5}]}]}, {{}, 
+               BSplineCurveBox[{
+                 Offset[{0, 5}, {3.9444192*^9, 7}], 
+                 Offset[{0, -10}, {3.9444192*^9, 7}], 
+                 Offset[{0, -10}, {3.9444192*^9, 7}], 
+                 Offset[{0, 10}, {3.9444192*^9, 5}], 
+                 Offset[{0, 10}, {3.9444192*^9, 5}], 
+                 Offset[{0, 3}, {3.9444192*^9, 5}]}]}, 
+              PolygonBox[
+               NCache[{
+                 Offset[{0, 
+                   Rational[-16, 3]}, {3.9444192*^9, 7}], 
+                 Offset[{
+                   Rational[16, 3], 1.5}, {3.9444192*^9, 7}], 
+                 Offset[{
+                   Rational[-16, 3], 1.5}, {3.9444192*^9, 7}]}, {
+                 Offset[{0, -5.333333333333333}, {3.9444192*^9, 7}], 
+                 Offset[{5.333333333333333, 1.5}, {3.9444192*^9, 7}], 
+                 Offset[{-5.333333333333333, 1.5}, {3.9444192*^9, 7}]}]], 
+              InsetBox[
+               BoxData[
+                FormBox[
+                 FrameBox[
+                  StyleBox["\"Polishing Computational Essay\"", {
+                    GrayLevel[0.3]}, StripOnInput -> False], RoundingRadius -> 
+                  5, FrameMargins -> 5, Background -> Directive[
+                    GrayLevel[1]], StripOnInput -> False], TraditionalForm]], 
+               
+               Offset[{0, 1}, {3.9444192*^9, 7}], {Center, Bottom}, 
+               Automatic]}}}},
+          
+          ImageSizeCache->{{949.0206311303082, 
+           1240.7358352489646`}, {-146.2493139952828, -14.583537020575108`}}],
+         
+         "DelayedMouseEffectStyle"],
+        StyleBox[
+         TagBox[
+          GridBox[{{"\"start: \"", 
+             TemplateBox[{
+               RowBox[{"\"12/29/2024\""}], 
+               RowBox[{"DateObject", "[", 
+                 RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"2024", ",", "12", ",", "29"}], "}"}], ",", 
+                   "\"Day\"", ",", "\"Gregorian\"", ",", 
+                   RowBox[{"-", "5.`"}], ",", "\"SmearedUTC\"", ",", 
+                   RowBox[{"{", 
+                    
+                    RowBox[{
+                    "\"Month\"", ",", "\"/\"", ",", "\"Day\"", ",", "\"/\"", 
+                    ",", "\"Year\""}], "}"}]}], "]"}]}, "DateObject", 
+              Editable -> False]}, {"\"end: \"", 
+             TemplateBox[{
+               RowBox[{"\"01/26/2025\""}], 
+               RowBox[{"DateObject", "[", 
+                 RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"2025", ",", "1", ",", "26"}], "}"}], ",", 
+                   "\"Day\"", ",", "\"Gregorian\"", ",", 
+                   RowBox[{"-", "5.`"}], ",", "\"SmearedUTC\"", ",", 
+                   RowBox[{"{", 
+                    
+                    RowBox[{
+                    "\"Month\"", ",", "\"/\"", ",", "\"Day\"", ",", "\"/\"", 
+                    ",", "\"Year\""}], "}"}]}], "]"}]}, "DateObject", 
+              Editable -> False]}}, RowSpacings -> 1, ColumnSpacings -> 0, 
+           RowAlignments -> Baseline, ColumnAlignments -> Right], 
+          Function[BoxForm`e$, 
+           TableForm[
+           BoxForm`e$, TableAlignments -> Right, TableSpacing -> {1, 0}]]], {
+          GrayLevel[0.3]}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[
+         TableForm[{{"start: ", 
+            
+            DateObject[{2024, 12, 29}, "Day", "Gregorian", -5., 
+             "SmearedUTC", {"Month", "/", "Day", "/", "Year"}]}, {"end: ", 
+            
+            DateObject[{2025, 1, 26}, "Day", "Gregorian", -5., "SmearedUTC", {
+             "Month", "/", "Day", "/", "Year"}]}}, TableAlignments -> Right, 
+          TableSpacing -> {1, 0}], {
+          GrayLevel[0.3]}], "Tooltip"]& ]}, 
+     {RGBColor[0.560181, 0.691569, 0.194885], AbsolutePointSize[7], 
+      AbsoluteThickness[1.6], Opacity[1], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         DynamicBox[{
+           FEPrivate`If[
+            CurrentValue["MouseOver"], 
+            Directive[
+             EdgeForm[
+              Directive[
+               RGBColor[0.560181, 0.691569, 0.194885], 
+               Thickness[Large], 
+               Opacity[0.2]]], 
+             FaceForm[{
+               RGBColor[0.37345400000000006`, 0.461046, 0.12992333333333334`], 
+               Opacity[1]}], 
+             CapForm["Round"], 
+             AbsoluteThickness[2.5], 
+             AbsolutePointSize[10], 
+             FrameBoxOptions -> {
+              BoxFrame -> 2.5, FrameStyle -> Automatic}], {}, {}], {{{
+              Directive[
+               Opacity[0.2]], {
+               Directive[
+                Opacity[0.2]], 
+               EdgeForm[], 
+               
+               RectangleBox[{3.9365568*^9, 4}, {
+                3.9444192*^9, 4}]}}, {{}, {{{{}, {{{
+                    GrayLevel[1], 
+                    AbsoluteThickness[2], 
+                    LineBox[{{
+                    Offset[{0, -1}, {3.9365568*^9, 4}], 
+                    Offset[{0, -1}, {3.9444192*^9, 4}]}, {
+                    Offset[{0, 1}, {3.9365568*^9, 4}], 
+                    Offset[{0, 1}, {3.9444192*^9, 4}]}}]}, {
+                    AbsolutePointSize[10], 
+                    GrayLevel[1], 
+                    PointBox[{{3.9365568*^9, 4}, {3.9444192*^9, 4}}]}, 
+                   PointBox[{{3.9365568*^9, 4}, {3.9444192*^9, 4}}], 
+                   LineBox[{{3.9365568*^9, 4}, {3.9444192*^9, 4}}]}}, {}, {{
+                   AbsolutePointSize[4], 
+                   GrayLevel[1], 
+                   
+                   PointBox[{{3.9365568*^9, 4}, {
+                    3.9444192*^9, 4}}]}}}, {}}, {{}, {}}}}}, {{
+              CapForm["Butt"], {
+               GrayLevel[1], 
+               AbsoluteThickness[4], 
+               BSplineCurveBox[{{3.9365568*^9, 7}, 
+                 Offset[{0, -10}, {3.9365568*^9, 7}], 
+                 Offset[{0, -10}, {3.9365568*^9, 7}], 
+                 Offset[{0, 12}, {3.9365568*^9, 4}], 
+                 Offset[{0, 12}, {3.9365568*^9, 4}], 
+                 Offset[{0, 4}, {3.9365568*^9, 4}]}]}, {{}, 
+               BSplineCurveBox[{
+                 Offset[{0, 5}, {3.9365568*^9, 7}], 
+                 Offset[{0, -10}, {3.9365568*^9, 7}], 
+                 Offset[{0, -10}, {3.9365568*^9, 7}], 
+                 Offset[{0, 12}, {3.9365568*^9, 4}], 
+                 Offset[{0, 12}, {3.9365568*^9, 4}], 
+                 Offset[{0, 3}, {3.9365568*^9, 4}]}]}, 
+              PolygonBox[
+               NCache[{
+                 Offset[{0, 
+                   Rational[-16, 3]}, {3.9365568*^9, 7}], 
+                 Offset[{
+                   Rational[16, 3], 1.5}, {3.9365568*^9, 7}], 
+                 Offset[{
+                   Rational[-16, 3], 1.5}, {3.9365568*^9, 7}]}, {
+                 Offset[{0, -5.333333333333333}, {3.9365568*^9, 7}], 
+                 Offset[{5.333333333333333, 1.5}, {3.9365568*^9, 7}], 
+                 Offset[{-5.333333333333333, 1.5}, {3.9365568*^9, 7}]}]], 
+              InsetBox[
+               BoxData[
+                FormBox[
+                 FrameBox[
+                  StyleBox["\"Implementation\"", {
+                    GrayLevel[0.3]}, StripOnInput -> False], RoundingRadius -> 
+                  5, FrameMargins -> 5, Background -> Directive[
+                    GrayLevel[1]], StripOnInput -> False], TraditionalForm]], 
+               
+               Offset[{0, 1}, {3.9365568*^9, 7}], {Center, Bottom}, 
+               Automatic]}}}},
+          
+          ImageSizeCache->{{401.73769821912356`, 
+           1058.9564712762476`}, {-146.2493139952828, 26.031431393809015`}}],
+         "DelayedMouseEffectStyle"],
+        StyleBox[
+         TagBox[
+          GridBox[{{"\"start: \"", 
+             TemplateBox[{
+               RowBox[{"\"09/29/2024\""}], 
+               RowBox[{"DateObject", "[", 
+                 RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"2024", ",", "9", ",", "29"}], "}"}], ",", 
+                   "\"Day\"", ",", "\"Gregorian\"", ",", 
+                   RowBox[{"-", "5.`"}], ",", "\"SmearedUTC\"", ",", 
+                   RowBox[{"{", 
+                    
+                    RowBox[{
+                    "\"Month\"", ",", "\"/\"", ",", "\"Day\"", ",", "\"/\"", 
+                    ",", "\"Year\""}], "}"}]}], "]"}]}, "DateObject", 
+              Editable -> False]}, {"\"end: \"", 
+             TemplateBox[{
+               RowBox[{"\"12/29/2024\""}], 
+               RowBox[{"DateObject", "[", 
+                 RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"2024", ",", "12", ",", "29"}], "}"}], ",", 
+                   "\"Day\"", ",", "\"Gregorian\"", ",", 
+                   RowBox[{"-", "5.`"}], ",", "\"SmearedUTC\"", ",", 
+                   RowBox[{"{", 
+                    
+                    RowBox[{
+                    "\"Month\"", ",", "\"/\"", ",", "\"Day\"", ",", "\"/\"", 
+                    ",", "\"Year\""}], "}"}]}], "]"}]}, "DateObject", 
+              Editable -> False]}}, RowSpacings -> 1, ColumnSpacings -> 0, 
+           RowAlignments -> Baseline, ColumnAlignments -> Right], 
+          Function[BoxForm`e$, 
+           TableForm[
+           BoxForm`e$, TableAlignments -> Right, TableSpacing -> {1, 0}]]], {
+          GrayLevel[0.3]}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[
+         TableForm[{{"start: ", 
+            
+            DateObject[{2024, 9, 29}, "Day", "Gregorian", -5., "SmearedUTC", {
+             "Month", "/", "Day", "/", "Year"}]}, {"end: ", 
+            
+            DateObject[{2024, 12, 29}, "Day", "Gregorian", -5., 
+             "SmearedUTC", {"Month", "/", "Day", "/", "Year"}]}}, 
+          TableAlignments -> Right, TableSpacing -> {1, 0}], {
+          GrayLevel[0.3]}], "Tooltip"]& ]}, 
+     {RGBColor[0.880722, 0.611041, 0.142051], AbsolutePointSize[7], 
+      AbsoluteThickness[1.6], Opacity[1], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         DynamicBox[{
+           FEPrivate`If[
+            CurrentValue["MouseOver"], 
+            Directive[
+             EdgeForm[
+              Directive[
+               RGBColor[0.880722, 0.611041, 0.142051], 
+               Thickness[Large], 
+               Opacity[0.2]]], 
+             FaceForm[{
+               RGBColor[0.587148, 0.40736066666666665`, 0.09470066666666668], 
+               
+               Opacity[1]}], 
+             CapForm["Round"], 
+             AbsoluteThickness[2.5], 
+             AbsolutePointSize[10], 
+             FrameBoxOptions -> {
+              BoxFrame -> 2.5, FrameStyle -> Automatic}], {}, {}], {{{
+              Directive[
+               Opacity[0.2]], {
+               Directive[
+                Opacity[0.2]], 
+               EdgeForm[], 
+               
+               RectangleBox[{3.932928*^9, 3}, {
+                3.9365568*^9, 3}]}}, {{}, {{{{}, {{{
+                    GrayLevel[1], 
+                    AbsoluteThickness[2], 
+                    LineBox[{{
+                    Offset[{0, -1}, {3.932928*^9, 3}], 
+                    Offset[{0, -1}, {3.9365568*^9, 3}]}, {
+                    Offset[{0, 1}, {3.932928*^9, 3}], 
+                    Offset[{0, 1}, {3.9365568*^9, 3}]}}]}, {
+                    AbsolutePointSize[10], 
+                    GrayLevel[1], 
+                    PointBox[{{3.932928*^9, 3}, {3.9365568*^9, 3}}]}, 
+                   PointBox[{{3.932928*^9, 3}, {3.9365568*^9, 3}}], 
+                   LineBox[{{3.932928*^9, 3}, {3.9365568*^9, 3}}]}}, {}, {{
+                   AbsolutePointSize[4], 
+                   GrayLevel[1], 
+                   
+                   PointBox[{{3.932928*^9, 3}, {
+                    3.9365568*^9, 3}}]}}}, {}}, {{}, {}}}}}, {{
+              CapForm["Butt"], {
+               GrayLevel[1], 
+               AbsoluteThickness[4], 
+               BSplineCurveBox[{{3.932928*^9, 7}, 
+                 Offset[{0, -10}, {3.932928*^9, 7}], 
+                 Offset[{0, -10}, {3.932928*^9, 7}], 
+                 Offset[{0, 14}, {3.932928*^9, 3}], 
+                 Offset[{0, 14}, {3.932928*^9, 3}], 
+                 Offset[{0, 4}, {3.932928*^9, 3}]}]}, {{}, 
+               BSplineCurveBox[{
+                 Offset[{0, 5}, {3.932928*^9, 7}], 
+                 Offset[{0, -10}, {3.932928*^9, 7}], 
+                 Offset[{0, -10}, {3.932928*^9, 7}], 
+                 Offset[{0, 14}, {3.932928*^9, 3}], 
+                 Offset[{0, 14}, {3.932928*^9, 3}], 
+                 Offset[{0, 3}, {3.932928*^9, 3}]}]}, 
+              PolygonBox[
+               NCache[{
+                 Offset[{0, 
+                   Rational[-16, 3]}, {3.932928*^9, 7}], 
+                 Offset[{
+                   Rational[16, 3], 1.5}, {3.932928*^9, 7}], 
+                 Offset[{
+                   Rational[-16, 3], 1.5}, {3.932928*^9, 7}]}, {
+                 Offset[{0, -5.333333333333333}, {3.932928*^9, 7}], 
+                 Offset[{5.333333333333333, 1.5}, {3.932928*^9, 7}], 
+                 Offset[{-5.333333333333333, 1.5}, {3.932928*^9, 7}]}]], 
+              InsetBox[
+               BoxData[
+                FormBox[
+                 FrameBox[
+                  StyleBox["\"Proposal & Planning\"", {
+                    GrayLevel[0.3]}, StripOnInput -> False], RoundingRadius -> 
+                  5, FrameMargins -> 5, Background -> Directive[
+                    GrayLevel[1]], StripOnInput -> False], TraditionalForm]], 
+               
+               Offset[{0, 1}, {3.932928*^9, 7}], {Center, Bottom}, 
+               Automatic]}}}},
+          
+          ImageSizeCache->{{115.5686522601063, 
+           468.173538365063}, {-146.24931399528276`, 66.64639980819307}}],
+         "DelayedMouseEffectStyle"],
+        StyleBox[
+         TagBox[
+          GridBox[{{"\"start: \"", 
+             TemplateBox[{
+               RowBox[{"\"08/18/2024\""}], 
+               RowBox[{"DateObject", "[", 
+                 RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"2024", ",", "8", ",", "18"}], "}"}], ",", 
+                   "\"Day\"", ",", "\"Gregorian\"", ",", 
+                   RowBox[{"-", "5.`"}], ",", "\"SmearedUTC\"", ",", 
+                   RowBox[{"{", 
+                    
+                    RowBox[{
+                    "\"Month\"", ",", "\"/\"", ",", "\"Day\"", ",", "\"/\"", 
+                    ",", "\"Year\""}], "}"}]}], "]"}]}, "DateObject", 
+              Editable -> False]}, {"\"end: \"", 
+             TemplateBox[{
+               RowBox[{"\"09/29/2024\""}], 
+               RowBox[{"DateObject", "[", 
+                 RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"2024", ",", "9", ",", "29"}], "}"}], ",", 
+                   "\"Day\"", ",", "\"Gregorian\"", ",", 
+                   RowBox[{"-", "5.`"}], ",", "\"SmearedUTC\"", ",", 
+                   RowBox[{"{", 
+                    
+                    RowBox[{
+                    "\"Month\"", ",", "\"/\"", ",", "\"Day\"", ",", "\"/\"", 
+                    ",", "\"Year\""}], "}"}]}], "]"}]}, "DateObject", 
+              Editable -> False]}}, RowSpacings -> 1, ColumnSpacings -> 0, 
+           RowAlignments -> Baseline, ColumnAlignments -> Right], 
+          Function[BoxForm`e$, 
+           TableForm[
+           BoxForm`e$, TableAlignments -> Right, TableSpacing -> {1, 0}]]], {
+          GrayLevel[0.3]}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[
+         TableForm[{{"start: ", 
+            
+            DateObject[{2024, 8, 18}, "Day", "Gregorian", -5., "SmearedUTC", {
+             "Month", "/", "Day", "/", "Year"}]}, {"end: ", 
+            
+            DateObject[{2024, 9, 29}, "Day", "Gregorian", -5., "SmearedUTC", {
+             "Month", "/", "Day", "/", "Year"}]}}, TableAlignments -> Right, 
+          TableSpacing -> {1, 0}], {
+          GrayLevel[0.3]}], "Tooltip"]& ]}, 
+     {RGBColor[0.368417, 0.506779, 0.709798], AbsolutePointSize[7], 
+      AbsoluteThickness[1.6], Opacity[1], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         DynamicBox[{
+           FEPrivate`If[
+            CurrentValue["MouseOver"], 
+            Directive[
+             EdgeForm[
+              Directive[
+               RGBColor[0.368417, 0.506779, 0.709798], 
+               Thickness[Large], 
+               Opacity[0.2]]], 
+             FaceForm[{
+               RGBColor[
+               0.24561133333333335`, 0.3378526666666667, 0.4731986666666667], 
+               
+               Opacity[1]}], 
+             CapForm["Round"], 
+             AbsoluteThickness[2.5], 
+             AbsolutePointSize[10], 
+             FrameBoxOptions -> {
+              BoxFrame -> 2.5, FrameStyle -> Automatic}], {}, {}], {{
+             Directive[
+              Opacity[0.2]], {
+              CapForm["Round"], 
+              
+              LineBox[{{3.932928*^9, 1}, {
+                3.932928*^9, 1}}]}}, {{}, {{{{}, {{{
+                   AbsolutePointSize[10], 
+                   GrayLevel[1], 
+                   PointBox[{3.932928*^9, 1}]}, 
+                  PointBox[{3.932928*^9, 1}]}}, {}, {}}, {}}, {{}}}}}},
+          
+          ImageSizeCache->{{180.78657233307604`, 193.28657233307604`}, {
+           131.90841656399155`, 144.40841656399155`}}],
+         "DelayedMouseEffectStyle"],
+        StyleBox[
+         TagBox[
+          GridBox[{{
+             TemplateBox[{
+               RowBox[{"\"08/18/2024\""}], 
+               RowBox[{"DateObject", "[", 
+                 RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"2024", ",", "8", ",", "18"}], "}"}], ",", 
+                   "\"Day\"", ",", "\"Gregorian\"", ",", 
+                   RowBox[{"-", "5.`"}], ",", "\"SmearedUTC\"", ",", 
+                   RowBox[{"{", 
+                    
+                    RowBox[{
+                    "\"Month\"", ",", "\"/\"", ",", "\"Day\"", ",", "\"/\"", 
+                    ",", "\"Year\""}], "}"}]}], "]"}]}, "DateObject", 
+              Editable -> False]}}, 
+           GridBoxAlignment -> {"Columns" -> {{Right}}}, AutoDelete -> False, 
+           GridBoxItemSize -> {
+            "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], {
+          GrayLevel[0.3]}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[
+         Grid[{{
+            
+            DateObject[{2024, 8, 18}, "Day", "Gregorian", -5., "SmearedUTC", {
+             "Month", "/", "Day", "/", "Year"}]}}, Alignment -> Right], {
+          GrayLevel[0.3]}], "Tooltip"]& ]}, 
+     {RGBColor[0.368417, 0.506779, 0.709798], AbsolutePointSize[7], 
+      AbsoluteThickness[1.6], Opacity[1], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         DynamicBox[{
+           FEPrivate`If[
+            CurrentValue["MouseOver"], 
+            Directive[
+             EdgeForm[
+              Directive[
+               RGBColor[0.368417, 0.506779, 0.709798], 
+               Thickness[Large], 
+               Opacity[0.2]]], 
+             FaceForm[{
+               RGBColor[
+               0.24561133333333335`, 0.3378526666666667, 0.4731986666666667], 
+               
+               Opacity[1]}], 
+             CapForm["Round"], 
+             AbsoluteThickness[2.5], 
+             AbsolutePointSize[10], 
+             FrameBoxOptions -> {
+              BoxFrame -> 2.5, FrameStyle -> Automatic}], {}, {}], {{
+             Directive[
+              Opacity[0.2]], {
+              CapForm["Round"], 
+              
+              LineBox[{{3.9365568*^9, 1}, {
+                3.9365568*^9, 1}}]}}, {{}, {{{{}, {{{
+                   AbsolutePointSize[10], 
+                   GrayLevel[1], 
+                   PointBox[{3.9365568*^9, 1}]}, 
+                  PointBox[{3.9365568*^9, 1}]}}, {}, {}}, {}}, {{}}}}}},
+          
+          ImageSizeCache->{{453.4556182920933, 465.9556182920933}, {
+           131.90841656399155`, 144.40841656399155`}}],
+         "DelayedMouseEffectStyle"],
+        StyleBox[
+         TagBox[
+          GridBox[{{
+             TemplateBox[{
+               RowBox[{"\"09/29/2024\""}], 
+               RowBox[{"DateObject", "[", 
+                 RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"2024", ",", "9", ",", "29"}], "}"}], ",", 
+                   "\"Day\"", ",", "\"Gregorian\"", ",", 
+                   RowBox[{"-", "5.`"}], ",", "\"SmearedUTC\"", ",", 
+                   RowBox[{"{", 
+                    
+                    RowBox[{
+                    "\"Month\"", ",", "\"/\"", ",", "\"Day\"", ",", "\"/\"", 
+                    ",", "\"Year\""}], "}"}]}], "]"}]}, "DateObject", 
+              Editable -> False]}}, 
+           GridBoxAlignment -> {"Columns" -> {{Right}}}, AutoDelete -> False, 
+           GridBoxItemSize -> {
+            "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], {
+          GrayLevel[0.3]}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[
+         Grid[{{
+            
+            DateObject[{2024, 9, 29}, "Day", "Gregorian", -5., "SmearedUTC", {
+             "Month", "/", "Day", "/", "Year"}]}}, Alignment -> Right], {
+          GrayLevel[0.3]}], "Tooltip"]& ]}, 
+     {RGBColor[0.368417, 0.506779, 0.709798], AbsolutePointSize[7], 
+      AbsoluteThickness[1.6], Opacity[1], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         DynamicBox[{
+           FEPrivate`If[
+            CurrentValue["MouseOver"], 
+            Directive[
+             EdgeForm[
+              Directive[
+               RGBColor[0.368417, 0.506779, 0.709798], 
+               Thickness[Large], 
+               Opacity[0.2]]], 
+             FaceForm[{
+               RGBColor[
+               0.24561133333333335`, 0.3378526666666667, 0.4731986666666667], 
+               
+               Opacity[1]}], 
+             CapForm["Round"], 
+             AbsoluteThickness[2.5], 
+             AbsolutePointSize[10], 
+             FrameBoxOptions -> {
+              BoxFrame -> 2.5, FrameStyle -> Automatic}], {}, {}], {{
+             Directive[
+              Opacity[0.2]], {
+              CapForm["Round"], 
+              
+              LineBox[{{3.939408*^9, 1}, {
+                3.939408*^9, 1}}]}}, {{}, {{{{}, {{{
+                   AbsolutePointSize[10], 
+                   GrayLevel[1], 
+                   PointBox[{3.939408*^9, 1}]}, 
+                  PointBox[{3.939408*^9, 1}]}}, {}, {}}, {}}, {{}}}}}},
+          
+          ImageSizeCache->{{667.6955829741783, 680.1955829741783}, {
+           131.90841656399155`, 144.40841656399155`}}],
+         "DelayedMouseEffectStyle"],
+        StyleBox[
+         TagBox[
+          GridBox[{{
+             TemplateBox[{
+               RowBox[{"\"11/01/2024\""}], 
+               RowBox[{"DateObject", "[", 
+                 RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"2024", ",", "11", ",", "1"}], "}"}], ",", 
+                   "\"Day\"", ",", "\"Gregorian\"", ",", 
+                   RowBox[{"-", "5.`"}], ",", "\"SmearedUTC\"", ",", 
+                   RowBox[{"{", 
+                    
+                    RowBox[{
+                    "\"Month\"", ",", "\"/\"", ",", "\"Day\"", ",", "\"/\"", 
+                    ",", "\"Year\""}], "}"}]}], "]"}]}, "DateObject", 
+              Editable -> False]}}, 
+           GridBoxAlignment -> {"Columns" -> {{Right}}}, AutoDelete -> False, 
+           GridBoxItemSize -> {
+            "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], {
+          GrayLevel[0.3]}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[
+         Grid[{{
+            
+            DateObject[{2024, 11, 1}, "Day", "Gregorian", -5., "SmearedUTC", {
+             "Month", "/", "Day", "/", "Year"}]}}, Alignment -> Right], {
+          GrayLevel[0.3]}], "Tooltip"]& ]}, 
+     {RGBColor[0.368417, 0.506779, 0.709798], AbsolutePointSize[7], 
+      AbsoluteThickness[1.6], Opacity[1], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         DynamicBox[{
+           FEPrivate`If[
+            CurrentValue["MouseOver"], 
+            Directive[
+             EdgeForm[
+              Directive[
+               RGBColor[0.368417, 0.506779, 0.709798], 
+               Thickness[Large], 
+               Opacity[0.2]]], 
+             FaceForm[{
+               RGBColor[
+               0.24561133333333335`, 0.3378526666666667, 0.4731986666666667], 
+               
+               Opacity[1]}], 
+             CapForm["Round"], 
+             AbsoluteThickness[2.5], 
+             AbsolutePointSize[10], 
+             FrameBoxOptions -> {
+              BoxFrame -> 2.5, FrameStyle -> Automatic}], {}, {}], {{
+             Directive[
+              Opacity[0.2]], {
+              CapForm["Round"], 
+              
+              LineBox[{{3.945024*^9, 1}, {
+                3.945024*^9, 1}}]}}, {{}, {{{{}, {{{
+                   AbsolutePointSize[10], 
+                   GrayLevel[1], 
+                   PointBox[{3.945024*^9, 1}]}, 
+                  PointBox[{3.945024*^9, 1}]}}, {}, {}}, {}}, {{}}}}}},
+          
+          ImageSizeCache->{{1089.6833921964862`, 1102.1833921964862`}, {
+           131.90841656399155`, 144.40841656399155`}}],
+         "DelayedMouseEffectStyle"],
+        StyleBox[
+         TagBox[
+          GridBox[{{
+             TemplateBox[{
+               RowBox[{"\"01/05/2025\""}], 
+               RowBox[{"DateObject", "[", 
+                 RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"2025", ",", "1", ",", "5"}], "}"}], ",", 
+                   "\"Day\"", ",", "\"Gregorian\"", ",", 
+                   RowBox[{"-", "5.`"}], ",", "\"SmearedUTC\"", ",", 
+                   RowBox[{"{", 
+                    
+                    RowBox[{
+                    "\"Month\"", ",", "\"/\"", ",", "\"Day\"", ",", "\"/\"", 
+                    ",", "\"Year\""}], "}"}]}], "]"}]}, "DateObject", 
+              Editable -> False]}}, 
+           GridBoxAlignment -> {"Columns" -> {{Right}}}, AutoDelete -> False, 
+           GridBoxItemSize -> {
+            "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], {
+          GrayLevel[0.3]}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[
+         Grid[{{
+            
+            DateObject[{2025, 1, 5}, "Day", "Gregorian", -5., "SmearedUTC", {
+             "Month", "/", "Day", "/", "Year"}]}}, Alignment -> Right], {
+          GrayLevel[0.3]}], "Tooltip"]& ]}}, {{{{{}, InsetBox[
+         StyleBox["\<\"Program Launch\"\>",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.3],
+          FrontFaceColor->GrayLevel[0.3],
+          BackFaceColor->GrayLevel[0.3],
+          GraphicsColor->GrayLevel[0.3],
+          FontColor->GrayLevel[0.3]], Offset[{0, 4}, {3.932928*^9, 1}], 
+         ImageScaled[{0.5, 0}]]}, {{}, InsetBox[
+         StyleBox["\<\"Presentation Session\"\>",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.3],
+          FrontFaceColor->GrayLevel[0.3],
+          BackFaceColor->GrayLevel[0.3],
+          GraphicsColor->GrayLevel[0.3],
+          FontColor->GrayLevel[0.3]], Offset[{0, 4}, {3.9473568*^9, 2}], 
+         ImageScaled[{0.5, 0}]]}, {{}, InsetBox[
+         StyleBox["\<\"Project Plan Check In\"\>",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.3],
+          FrontFaceColor->GrayLevel[0.3],
+          BackFaceColor->GrayLevel[0.3],
+          GraphicsColor->GrayLevel[0.3],
+          FontColor->GrayLevel[0.3]], Offset[{0, 4}, {3.9365568*^9, 1}], 
+         ImageScaled[{0.5, 0}]]}, {{}, InsetBox[
+         StyleBox["\<\"MVP Check In\"\>",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.3],
+          FrontFaceColor->GrayLevel[0.3],
+          BackFaceColor->GrayLevel[0.3],
+          GraphicsColor->GrayLevel[0.3],
+          FontColor->GrayLevel[0.3]], Offset[{0, 4}, {3.939408*^9, 1}], 
+         ImageScaled[{0.5, 0}]]}, {{}, InsetBox[
+         StyleBox["\<\"Final Product Check In\"\>",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.3],
+          FrontFaceColor->GrayLevel[0.3],
+          BackFaceColor->GrayLevel[0.3],
+          GraphicsColor->GrayLevel[0.3],
+          FontColor->GrayLevel[0.3]], Offset[{0, 4}, {3.945024*^9, 1}], 
+         ImageScaled[{0.5, 0}]]}}, {}}, {{}, {}}, {{}, {}}, {{}, {}}}}, {}, \
+{}},
+  AspectRatio->NCache[
+    Rational[79, 300], 0.2633333333333333],
+  Axes->{False, False},
+  AxesOrigin->{0, 0},
+  Frame->{{None, None}, {True, None}},
+  FrameTicks->
+   FrontEndValueCache[{{None, None}, {
+     Charting`getDateTicks[Automatic, {Automatic}, 
+       (Map[DateList, {
+         SlotSequence[1]}]& )[
+        SlotSequence[1]], None, 7, {{0.01, 0}, {0.005, 0}}, Automatic]& , 
+      Automatic}}, {{None, None}, {{{3.9287808*^9, 
+        FormBox["\"Jul\"", TraditionalForm], {0.006666666666666666, 0}}, {
+       3.9341376*^9, 
+        FormBox["\"Sep\"", TraditionalForm], {0.006666666666666666, 0}}, {
+       3.939408*^9, 
+        FormBox["\"Nov\"", TraditionalForm], {0.006666666666666666, 0}}, {
+       3.9446784*^9, 
+        FormBox["\"Jan\"", TraditionalForm], {0.006666666666666666, 0}}, {
+       3.949776*^9, 
+        FormBox["\"Mar\"", TraditionalForm], {0.006666666666666666, 0}}, {
+       3.9550464*^9, 
+        FormBox["\"May\"", TraditionalForm], {0.006666666666666666, 0}}, {
+       3.9287808*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {3.9314592*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {3.9341376*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {3.9367296*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {3.939408*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {3.942*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {3.9446784*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {3.9473568*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {3.949776*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}}, Automatic}}],
+  GridLines->{None, None},
+  ImagePadding->All,
+  ImageSize->{Full, Automatic},
+  PlotRange->{{All, All}, {0, All}},
+  PlotRangePadding->{{
+     Scaled[0.06], 
+     Scaled[0.06]}, {None, 
+     Scaled[0.05]}},
+  Ticks->{{{3.9287808*^9, 
+      FormBox["\"Jul\"", TraditionalForm], {0.006666666666666666, 0}}, {
+     3.9341376*^9, 
+      FormBox["\"Sep\"", TraditionalForm], {0.006666666666666666, 0}}, {
+     3.939408*^9, 
+      FormBox["\"Nov\"", TraditionalForm], {0.006666666666666666, 0}}, {
+     3.9446784*^9, 
+      FormBox["\"Jan\"", TraditionalForm], {0.006666666666666666, 0}}, {
+     3.949776*^9, 
+      FormBox["\"Mar\"", TraditionalForm], {0.006666666666666666, 0}}, {
+     3.9550464*^9, 
+      FormBox["\"May\"", TraditionalForm], {0.006666666666666666, 0}}, {
+     3.9287808*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {3.9314592*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {3.9341376*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {3.9367296*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {3.939408*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {3.942*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {3.9446784*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {3.9473568*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {3.949776*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}}, None}]], "Output",
+ CellChangeTimes->{
+  3.8062515773448477`*^9, 3.806251662072634*^9, 3.806251718257269*^9, {
+   3.806251848673558*^9, 3.8062518717112217`*^9}, {3.8062522665701113`*^9, 
+   3.806252282339726*^9}, {3.806252472313218*^9, 3.806252476286559*^9}, {
+   3.8062525080445127`*^9, 3.806252519035881*^9}, 3.8062525597319183`*^9, {
+   3.806252599751751*^9, 3.806252648719544*^9}, {3.806252714768182*^9, 
+   3.806252734120555*^9}, {3.806252778065156*^9, 3.806252794933632*^9}, {
+   3.806252827365643*^9, 3.806252903549037*^9}, 3.806316497644413*^9, {
+   3.837770882234746*^9, 3.837770907399024*^9}, {3.871857772973401*^9, 
+   3.871857783726808*^9}, 3.871859358746045*^9, {3.871859446167158*^9, 
+   3.871859485840039*^9}, {3.87185954595647*^9, 3.871859616745454*^9}, 
+   3.871859703411023*^9, 3.871860041358614*^9, 3.87186024715517*^9, {
+   3.899979838237*^9, 3.899979865535473*^9}, 3.9007713153926086`*^9, 
+   3.9007718307477293`*^9, {3.931427976869903*^9, 3.931427986182979*^9}, 
+   3.9314282376138897`*^9, {3.931428270118395*^9, 3.931428339309602*^9}, 
+   3.931428504648087*^9, 3.932555557113339*^9},
+ CellLabel->"Out[73]=",ExpressionUUID->"0bdde2b1-2e07-42a0-a9de-7e039311045a"]
+}, {2}]],
+
+Cell[CellGroupData[{
+
+Cell["Program Launch", "Subsubsection",
+ CellChangeTimes->{{3.776008717273478*^9, 3.776008790816244*^9}, {
+  3.806252946265358*^9, 
+  3.80625295116789*^9}},ExpressionUUID->"d7f238e0-6aa1-4a9e-be70-\
+a69019531cc2"],
+
+Cell["Students connect on Discord before the start of the program", "Item",
+ CellChangeTimes->{{3.806252953997447*^9, 3.806252963445631*^9}, {
+  3.899979884774892*^9, 
+  3.899979885926894*^9}},ExpressionUUID->"db6ebb0c-001e-42c0-9ffc-\
+dd98ee5157c0"],
+
+Cell["\<\
+Students are grouped by interest by the program director, with respect to \
+their time zones\
+\>", "Item",
+ CellChangeTimes->{{3.806252953997447*^9, 3.806252985252078*^9}, {
+  3.80893820681217*^9, 3.808938213902967*^9}, {3.8999798897741737`*^9, 
+  3.899979890806384*^9}},ExpressionUUID->"8b54a961-fd75-45f8-b1ae-\
+f65cd0b965d7"],
+
+Cell["\<\
+WELP launches August 18th with a 2 hour introduction session and Agile \
+Development workshop\
+\>", "Item",
+ CellChangeTimes->{{3.806252953997447*^9, 3.806253009917282*^9}, {
+  3.837770977501904*^9, 3.837770978702777*^9}, {3.8718598204564734`*^9, 
+  3.871859831383664*^9}, {3.899979902704364*^9, 3.899979906126368*^9}, {
+  3.931428000006803*^9, 3.9314280077971907`*^9}, {3.931429003269374*^9, 
+  3.931429003273409*^9}},ExpressionUUID->"4e1f5f54-7137-48bf-b93e-\
+6db20942ca1c"],
+
+Cell["\<\
+WELP projects can be anything, as long as they primarily use Wolfram \
+Language, and output a computational essay.\
+\>", "Item",
+ CellChangeTimes->{{3.806252953997447*^9, 3.806253009917282*^9}, {
+  3.837770977501904*^9, 3.837770978702777*^9}, {3.8718598204564734`*^9, 
+  3.871859831383664*^9}, {3.899979902704364*^9, 3.899979906126368*^9}, {
+  3.931428000006803*^9, 3.9314280077971907`*^9}, {3.931429003669509*^9, 
+  3.9314290295628443`*^9}},ExpressionUUID->"bc652c3b-4e6f-48cd-aac2-\
+cc0b1cde2efd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Phase One: Proposal and Planning (August 18th - September 29th)\
+\>", "Subsection",
+ CellChangeTimes->{{3.776014598512807*^9, 3.776014606458147*^9}, {
+  3.776017318177568*^9, 3.776017325776918*^9}, {3.806253284274884*^9, 
+  3.806253296458476*^9}, {3.806253483674339*^9, 3.806253485442172*^9}, {
+  3.837771072269763*^9, 3.837771072405132*^9}, {3.871859848484826*^9, 
+  3.871859852700756*^9}, {3.899979917270756*^9, 3.899979931276714*^9}, {
+  3.9314280137416573`*^9, 3.9314280286465187`*^9}, {3.931428526980704*^9, 
+  3.931428530439478*^9}},ExpressionUUID->"756d75c2-14dd-4fec-8499-\
+d7b15d17c231"],
+
+Cell["Get to know your group", "Item",
+ CellChangeTimes->{{3.931428599880556*^9, 
+  3.931428607025545*^9}},ExpressionUUID->"667871bf-a4c9-4861-9625-\
+51def220415d"],
+
+Cell["\<\
+Come up with at least 5 different possible projects and think them through\
+\>", "Item",
+ CellChangeTimes->{{3.931428599880556*^9, 
+  3.931428631260845*^9}},ExpressionUUID->"a6572b85-049c-4c23-9906-\
+5684f4b29d63"],
+
+Cell["\<\
+Meet with your mentor to get to know them. Have them verify and challenge \
+your ideas.\
+\>", "Item",
+ CellChangeTimes->{{3.8062530221854477`*^9, 3.806253098951511*^9}, 
+   3.806253182150313*^9, {3.8718598931771493`*^9, 
+   3.871859915219872*^9}},ExpressionUUID->"f527bb71-b228-4a2c-b7cf-\
+092624ea68c7"],
+
+Cell["\<\
+Narrow your focus down to one project that aligns with the group\
+\[CloseCurlyQuote]s goals, strengths, and what you want to learn\
+\>", "Item",
+ CellChangeTimes->{{3.931428599880556*^9, 
+  3.931428670523505*^9}},ExpressionUUID->"ca013c52-0434-4b23-b8b0-\
+89209ea75a02"],
+
+Cell["\<\
+Write a brief project proposal: a few sentences outlining the problem you \
+want to solve.\
+\>", "Item",
+ CellChangeTimes->{{3.931428684825282*^9, 
+  3.931428711923313*^9}},ExpressionUUID->"9d6801f0-c3d7-421a-846b-\
+a28277ee4332"],
+
+Cell["\<\
+Work together to come up with 3-6 Sprints. What will each sprint accomplish? \
+Who will do what? What times will you be meeting? Come up with a detailed \
+plan for how you will complete the project, and create a Kanban board with \
+your project tasks broken down as far as you can.\
+\>", "Item",
+ CellChangeTimes->{{3.931428684825282*^9, 
+  3.931428830277023*^9}},ExpressionUUID->"656f74bf-dc78-4e4a-a85c-\
+0cdd03aedc33"],
+
+Cell[CellGroupData[{
+
+Cell["Check In 1: Project Proposal and Plan - September 29th", "Subsubsection",
+ CellChangeTimes->{{3.806253101801453*^9, 3.806253123487*^9}, {
+   3.806253487345141*^9, 3.806253488682292*^9}, {3.806316403950228*^9, 
+   3.806316405510356*^9}, {3.83777108436055*^9, 3.837771084408453*^9}, 
+   3.871859891047812*^9, {3.900771598055929*^9, 3.900771603296205*^9}, {
+   3.931428076459809*^9, 
+   3.931428077051291*^9}},ExpressionUUID->"5b0e7f8a-f1a7-425f-b90d-\
+4e462248cf0c"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+At the end of Phase One, you will meet with Rory or Eryn to explain your plan \
+for your project. We expect to see:\
+\>", "Item",
+ CellChangeTimes->{{3.80625313012868*^9, 3.806253135247635*^9}, {
+  3.806316410235136*^9, 3.806316410235275*^9}, {3.931428844916017*^9, 
+  3.931428861396317*^9}},ExpressionUUID->"bf6f2d55-4d2c-49ad-a383-\
+b261cce988f3"],
+
+Cell["\<\
+A project proposal describing your problem, how you plan to solve it, and why \
+this is a good fit for your team\
+\>", "Subitem",
+ CellChangeTimes->{{3.80625313012868*^9, 3.806253135247635*^9}, {
+  3.806316410235136*^9, 3.806316410235275*^9}, {3.931428844916017*^9, 
+  3.93142888766194*^9}},ExpressionUUID->"3f3437f8-5e61-4d65-8c57-\
+60ddefd236e6"],
+
+Cell["A thorough outline of your Sprints and task maps", "Subitem",
+ CellChangeTimes->{{3.80625313012868*^9, 3.806253135247635*^9}, {
+  3.806316410235136*^9, 3.806316410235275*^9}, {3.931428844916017*^9, 
+  3.931428910228491*^9}},ExpressionUUID->"c1bdf9bb-ee6c-46c7-b645-\
+d724bda08ff6"],
+
+Cell["\<\
+Possibly some code you\[CloseCurlyQuote]ve done to demonstrate that your \
+project is viable\
+\>", "Subitem",
+ CellChangeTimes->{{3.80625313012868*^9, 3.806253135247635*^9}, {
+  3.806316410235136*^9, 3.806316410235275*^9}, {3.931428844916017*^9, 
+  3.931428938595069*^9}},ExpressionUUID->"126af75b-f598-49e2-b7e3-\
+0927e76e5d35"],
+
+Cell["\<\
+Any data that you will need for your project, in a format that works.\
+\>", "Subitem",
+ CellChangeTimes->{{3.80625313012868*^9, 3.806253135247635*^9}, {
+  3.806316410235136*^9, 3.806316410235275*^9}, {3.931428844916017*^9, 
+  3.931428952206649*^9}},ExpressionUUID->"f9aef6d9-d0e0-494c-b640-\
+2471fb06cde0"]
+}, Open  ]],
+
+Cell["Submit the project proposal form.", "Item",
+ CellChangeTimes->{{3.80625313012868*^9, 3.806253135247635*^9}, {
+  3.806316411310379*^9, 3.806316445382172*^9}, {3.871859927266647*^9, 
+  3.8718599849207*^9}, {3.900773090017803*^9, 
+  3.900773105604797*^9}},ExpressionUUID->"98405425-7555-448f-9e68-\
+850e2369e5f0"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Phase Two: Implementation (September 29th - December 29th)", \
+"Subsection",
+ CellChangeTimes->{{3.776015205222816*^9, 3.776015215659443*^9}, {
+  3.776017541513475*^9, 3.776017546485379*^9}, {3.8062534334121423`*^9, 
+  3.806253437972612*^9}, {3.806253544599996*^9, 3.806253559949877*^9}, {
+  3.837771104747081*^9, 3.837771118492586*^9}, {3.871860147214068*^9, 
+  3.871860157177689*^9}, {3.900771629392811*^9, 3.900771636341208*^9}, {
+  3.9314289702524643`*^9, 
+  3.931428987357429*^9}},ExpressionUUID->"abdb4725-965b-4e12-9e48-\
+9c2f33b2259a"],
+
+Cell["\<\
+Now you have a plan for your project, it\[CloseCurlyQuote]s time to implement \
+it.\
+\>", "Item",
+ CellChangeTimes->{{3.806253686482802*^9, 3.806253706381931*^9}, {
+  3.931429042865893*^9, 3.931429067753841*^9}, {3.931429222732213*^9, 
+  3.931429222733512*^9}},ExpressionUUID->"18a43d95-b4b4-4996-9753-\
+b8ebbb8741f8"],
+
+Cell["\<\
+During this phase, you will meet with the directors twice: once to show a \
+minimum viable product, and once to show your final product.\
+\>", "Item",
+ CellChangeTimes->{{3.806253686482802*^9, 3.806253706381931*^9}, {
+  3.931429042865893*^9, 3.931429067753841*^9}, {3.931429223291607*^9, 
+  3.931429273657415*^9}},ExpressionUUID->"bfda2946-eda6-4773-9f43-\
+3dccdf2164da"],
+
+Cell["\<\
+Throughout this phase, you should be writing your computational essay.\
+\>", "Item",
+ CellChangeTimes->{{3.806253686482802*^9, 3.806253706381931*^9}, {
+  3.931429042865893*^9, 3.931429067753841*^9}, {3.931429223291607*^9, 
+  3.931429270472342*^9}},ExpressionUUID->"57151140-c686-4686-ac2d-\
+ade686e3f604"],
+
+Cell["\<\
+Your final outcome can be anything, as long as it\[CloseCurlyQuote]s made \
+with Wolfram Language.\
+\>", "Item",
+ CellChangeTimes->{{3.806253686482802*^9, 3.806253731645028*^9}, {
+  3.871860340792201*^9, 
+  3.871860340793507*^9}},ExpressionUUID->"61404487-6882-451d-9195-\
+7c0cb5fb62f6"],
+
+Cell["Communicate with your mentor for any questions or needs!", "Item",
+ CellChangeTimes->{{3.806253686482802*^9, 3.806253731645028*^9}, {
+  3.871860344984219*^9, 3.87186037463892*^9}, {3.900771751241647*^9, 
+  3.900771770820174*^9}},ExpressionUUID->"cb716f30-5a52-4620-bc3e-\
+5cd9ec71ebb2"],
+
+Cell[CellGroupData[{
+
+Cell["Check In 2: MVP (November 1st)", "Subsubsection",
+ CellChangeTimes->{{3.806253735747079*^9, 3.806253747021647*^9}, {
+   3.8377711251100903`*^9, 3.837771130733645*^9}, {3.8718601622249947`*^9, 
+   3.871860165015562*^9}, 3.900771648739769*^9, {3.931429072474312*^9, 
+   3.93142908933661*^9}},ExpressionUUID->"54550d2c-8fcd-402a-b11a-\
+38d0324e2e6c"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Just before the halfway point of Phase 2, you will meet with Rory or Eryn to \
+show the work you\[CloseCurlyQuote]ve done so far. We expect to see:\
+\>", "Item",
+ CellChangeTimes->{{3.931429094765727*^9, 
+  3.931429131250848*^9}},ExpressionUUID->"c891c337-7742-4fed-9a45-\
+d0cc0a50fd03"],
+
+Cell["Evidence that you\[CloseCurlyQuote]re following your plan", "Subitem",
+ CellChangeTimes->{{3.931429094765727*^9, 
+  3.931429137859408*^9}},ExpressionUUID->"f224006e-6586-4cf2-b2fe-\
+4493837e1bd2"],
+
+Cell["\<\
+Evidence that all members of the team have been working 3-5 hours per week\
+\>", "Subitem",
+ CellChangeTimes->{{3.931429094765727*^9, 
+  3.931429153818452*^9}},ExpressionUUID->"82dd344f-a9f5-4401-a536-\
+b0657413aadf"],
+
+Cell["\<\
+A Minimum Viable Product of your project. This means that you\
+\[CloseCurlyQuote]ve written some code that does something.\
+\>", "Subitem",
+ CellChangeTimes->{{3.931429094765727*^9, 
+  3.931429204623528*^9}},ExpressionUUID->"5f5dd9a6-5146-4531-b362-\
+ac3efb7383a1"],
+
+Cell["An outline of your essay.", "Subitem",
+ CellChangeTimes->{{3.931429094765727*^9, 
+  3.931429210283967*^9}},ExpressionUUID->"133f6e17-7917-49fb-ab8b-\
+a74ac0b6980d"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Check In 3: Final Product (January 5th)", "Subsubsection",
+ CellChangeTimes->{{3.931429283240694*^9, 
+  3.93142930277453*^9}},ExpressionUUID->"ef559541-eeb0-4f52-9497-\
+902e297badb8"],
+
+Cell["\<\
+For WELP24, this meeting is bumped a week to avoid the holidays.\
+\>", "Item",
+ CellChangeTimes->{
+  3.93142932026886*^9, {3.931429497199957*^9, 
+   3.931429520915588*^9}},ExpressionUUID->"74b7be4a-df1a-497e-bcf8-\
+b640ece9085c"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+At the end of Phase 2, you will meet with Rory or Eryn to show your final \
+code and your computational essay draft. We expect to see:\
+\>", "Item",
+ CellChangeTimes->{
+  3.93142932026886*^9, {3.931429497199957*^9, 
+   3.931429553921754*^9}},ExpressionUUID->"6fce2597-f066-4157-98eb-\
+85341eaf44b8"],
+
+Cell["Completed code that meets your project proposal goals", "Subitem",
+ CellChangeTimes->{
+  3.93142932026886*^9, {3.931429497199957*^9, 
+   3.931429566505536*^9}},ExpressionUUID->"977a6371-e2ef-4724-aeec-\
+7e0366fb67b8"],
+
+Cell["A draft of your computational essay", "Subitem",
+ CellChangeTimes->{
+  3.93142932026886*^9, {3.931429497199957*^9, 
+   3.9314295737160378`*^9}},ExpressionUUID->"8c41afa0-002b-4d1d-83ae-\
+1efaf1bb7a0e"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Phase Three: Computational Essay Polishing (December 29th - January 26th)\
+\>", "Subsection",
+ CellChangeTimes->{{3.806253781843381*^9, 3.8062538052112427`*^9}, {
+  3.837771133798633*^9, 3.837771143470598*^9}, {3.8718601749688373`*^9, 
+  3.8718601819511538`*^9}, {3.900771651862138*^9, 3.900771662680559*^9}, {
+  3.9314295878032637`*^9, 
+  3.931429612290413*^9}},ExpressionUUID->"ab6394fd-c080-4c51-a089-\
+58f04726be08"],
+
+Cell["\<\
+The final phase of your project is working out how to best present it to the \
+world.\
+\>", "Item",
+ CellChangeTimes->{{3.806253806885341*^9, 
+  3.806253826484474*^9}},ExpressionUUID->"5090ec30-8ea0-4be5-bdb9-\
+d6827722962b"],
+
+Cell["Write a computational essay to post to Wolfram Community", "Item",
+ CellChangeTimes->{{3.806253806885341*^9, 3.806253873780548*^9}, {
+  3.9314296421367483`*^9, 
+  3.931429642965526*^9}},ExpressionUUID->"83f4cacd-3095-45fd-befd-\
+408c7e729358"],
+
+Cell["\<\
+Pull together any functions, neural nets or data sets you\[CloseCurlyQuote]ve \
+created to submit to the Wolfram Repositories.\
+\>", "Item",
+ CellChangeTimes->{{3.806253806885341*^9, 3.806253873780548*^9}, {
+  3.9314296421367483`*^9, 
+  3.931429643931431*^9}},ExpressionUUID->"bf63fcfb-0ba4-4c73-a610-\
+aa455f209343"],
+
+Cell["\<\
+Have your mentor review your essay and make changes before sending to Rory\
+\>", "Item",
+ CellChangeTimes->{{3.806253806885341*^9, 3.806253948515661*^9}, {
+  3.900771675454113*^9, 
+  3.900771689592842*^9}},ExpressionUUID->"5202f77a-fc04-482b-b77c-\
+27553668b3b9"],
+
+Cell["\<\
+Do not post your essay to Community, Rory will post it from the Wolfram \
+Emerging Leaders Program account.\
+\>", "Item",
+ CellChangeTimes->{{3.806253806885341*^9, 
+  3.806253948515661*^9}},ExpressionUUID->"4372e763-b8c4-4034-8ab5-\
+3102a67bfe12"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Resources", "Section",
+ CellChangeTimes->{{3.7760117952317142`*^9, 
+  3.776011797108857*^9}},ExpressionUUID->"869bbb82-54c8-48c3-8171-\
+59a23797d078"],
+
+Cell[TextData[{
+ ButtonBox["What is Agile Methodology?",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://What is Agile Methodology"], None},
+  ButtonNote->"https://What is Agile Methodology"],
+ " "
+}], "Item",
+ CellChangeTimes->{{3.9314297195414963`*^9, 3.931429753272913*^9}, {
+  3.9314298625752172`*^9, 
+  3.931429883020084*^9}},ExpressionUUID->"6066ab29-ba5e-435c-92cd-\
+c888c080e989"],
+
+Cell[TextData[ButtonBox["What are Sprints?",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.atlassian.com/agile/scrum/sprints"], None},
+ ButtonNote->"https://www.atlassian.com/agile/scrum/sprints"]], "Item",
+ CellChangeTimes->{{3.9314297195414963`*^9, 3.9314297411268663`*^9}, {
+  3.93142983986122*^9, 
+  3.931429848258872*^9}},ExpressionUUID->"23e3a632-3f22-4333-b433-\
+588ee89caf8b"],
+
+Cell[CellGroupData[{
+
+Cell["Project Management Tools: ", "Item",
+ CellChangeTimes->{{3.931429964346703*^9, 3.9314299763030777`*^9}, {
+  3.931430040616325*^9, 3.93143005154116*^9}, {3.931430089054319*^9, 
+  3.931430107005995*^9}},ExpressionUUID->"2167e464-15d7-4b7a-9d72-\
+665b2dedce0d"],
+
+Cell[TextData[ButtonBox["Freedcamp",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://freedcamp.com/"], None},
+ ButtonNote->"https://freedcamp.com/"]], "Subitem",
+ CellChangeTimes->{{3.931429964346703*^9, 3.9314299763030777`*^9}, {
+  3.931430040616325*^9, 3.93143005154116*^9}, {3.931430089054319*^9, 
+  3.931430109140864*^9}},ExpressionUUID->"bdce53bc-ad8e-4214-af92-\
+2a4438e31e03"],
+
+Cell[TextData[ButtonBox["Trello",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://trello.com/home"], None},
+ ButtonNote->"https://trello.com/home"]], "Subitem",
+ CellChangeTimes->{{3.931429964346703*^9, 3.9314299763030777`*^9}, {
+  3.931430040616325*^9, 3.93143005154116*^9}, {3.931430089054319*^9, 
+  3.931430111818918*^9}},ExpressionUUID->"054045ac-2d6c-4de9-b80b-\
+6d4eef572b18"],
+
+Cell[TextData[{
+ ButtonBox["Plaky",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://plaky.com/"], None},
+  ButtonNote->"https://plaky.com/"],
+ " "
+}], "Subitem",
+ CellChangeTimes->{{3.931429964346703*^9, 3.9314299763030777`*^9}, {
+  3.931430040616325*^9, 3.93143005154116*^9}, {3.931430089054319*^9, 
+  3.931430111573111*^9}},ExpressionUUID->"b8b49f3a-cab1-46c3-bb6d-\
+b0ec6824d9d9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ ButtonBox["Design Thinking Bootleg",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://static1.squarespace.com/static/57c6b79629687fde090a0fdd/t/\
+5b19b2f2aa4a99e99b26b6bb/1528410876119/dschool_bootleg_deck_2018_final_sm+%\
+282%29.pdf"], None},
+  ButtonNote->
+   "https://static1.squarespace.com/static/57c6b79629687fde090a0fdd/t/\
+5b19b2f2aa4a99e99b26b6bb/1528410876119/dschool_bootleg_deck_2018_final_sm+%\
+282%29.pdf"],
+ " (Stanford d.School)"
+}], "Item",
+ CellChangeTimes->{{3.806254056338225*^9, 
+  3.8062540751565437`*^9}},ExpressionUUID->"1724248f-f9d8-4d2e-b458-\
+0bf5ae190c3c"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+This is a short introduction to lots of tools for design thinking. Some of \
+them are useful for us, some of them less so. Have a look through and see \
+what you want to use in your team. We recommend having a close look at:\
+\>", "Subitem",
+ CellChangeTimes->{{3.806254056338225*^9, 3.806254081126236*^9}, {
+  3.931429933853758*^9, 
+  3.931429940131645*^9}},ExpressionUUID->"e0b65401-d57a-4ae0-b4bd-\
+154d401683c6"],
+
+Cell["2x2 Matrix", "Subsubitem",
+ CellChangeTimes->{{3.806254056338225*^9, 
+  3.8062540856744633`*^9}},ExpressionUUID->"276bf45e-f624-4546-bae0-\
+4ee0a6e095c6"],
+
+Cell["Why and How Ladder", "Subsubitem",
+ CellChangeTimes->{{3.806254056338225*^9, 
+  3.806254091162565*^9}},ExpressionUUID->"16277fb7-0cfe-4967-a253-\
+aca963232160"],
+
+Cell["How Might We Questions", "Subsubitem",
+ CellChangeTimes->{{3.806254056338225*^9, 
+  3.806254097014188*^9}},ExpressionUUID->"4ac848c1-c5c9-4f56-899d-\
+6d21e4ef0526"],
+
+Cell["Brainstorm", "Subsubitem",
+ CellChangeTimes->{{3.806254056338225*^9, 
+  3.806254099322369*^9}},ExpressionUUID->"e166111b-7a9f-4f41-ba1b-\
+f96c7e734175"],
+
+Cell["Impose Constraints", "Subsubitem",
+ CellChangeTimes->{{3.806254056338225*^9, 
+  3.806254101434156*^9}},ExpressionUUID->"1904810c-6861-445c-87ff-\
+76c94928ad8a"],
+
+Cell["Testing with Users (use the other WELP teams)", "Subsubitem",
+ CellChangeTimes->{{3.806254056338225*^9, 
+  3.806254104281713*^9}},ExpressionUUID->"31fadf7d-721a-4889-805b-\
+58ff2a49a9d5"],
+
+Cell["Identify a Variable", "Subsubitem",
+ CellChangeTimes->{{3.806254056338225*^9, 
+  3.806254111769625*^9}},ExpressionUUID->"a0ff1e88-f166-437a-8337-\
+15c13229bca9"],
+
+Cell["Describe Your Concept", "Subsubitem",
+ CellChangeTimes->{{3.806254056338225*^9, 
+  3.8062541142576027`*^9}},ExpressionUUID->"8f34a17b-e04c-49fe-996f-\
+bcaac6bec1ec"],
+
+Cell["Yes, And! Brainstorm", "Subsubitem",
+ CellChangeTimes->{{3.806254056338225*^9, 
+  3.806254114013281*^9}},ExpressionUUID->"40f027d3-6dbb-4953-827d-\
+9eabbca51d5d"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[TextData[ButtonBox["Computational Essay Guidelines",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolframcloud.com/obj/summercamp/PortalResources/\
+ComputationalEssayGuidelines.nb"], None},
+ ButtonNote->
+  "https://www.wolframcloud.com/obj/summercamp/PortalResources/\
+ComputationalEssayGuidelines.nb"]], "Item",
+ CellChangeTimes->{{3.9314301962688427`*^9, 3.931430203409054*^9}, {
+  3.9314302538732986`*^9, 
+  3.931430253875952*^9}},ExpressionUUID->"bd2735ba-5b1d-48c2-8ab5-\
+7edb98f71c61"],
+
+Cell[TextData[ButtonBox["Advanced Wolfram Language skills",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.wolfram.com/wolfram-u/courses/catalog/?topic=wolfram-\
+language&f_level%5B%5D=Advanced&f_level%5B%5D=Intermediate&q=&f_button=\
+filters"], None},
+ ButtonNote->
+  "https://www.wolfram.com/wolfram-u/courses/catalog/?topic=wolfram-language&\
+f_level%5B%5D=Advanced&f_level%5B%5D=Intermediate&q=&f_button=filters"]], \
+"Item",
+ CellChangeTimes->{{3.9314301962688427`*^9, 3.931430203409054*^9}, {
+  3.931430254370297*^9, 
+  3.931430263945445*^9}},ExpressionUUID->"76b5a4ca-e453-43ed-aaf1-\
+8ee40f8cb8cd"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1619, 1005},
+WindowMargins->{{122, Automatic}, {-595, Automatic}},
+TaggingRules-><|"TryRealOnly" -> False|>,
+Magnification:>1.25 Inherited,
+FrontEndVersion->"14.0 for Mac OS X x86 (64-bit) (December 16, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"86c88275-f669-466d-a638-f55b588b20df"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[583, 22, 237, 4, 123, "Title",ExpressionUUID->"c9bfac4b-9807-4588-a9c1-b1843b209e9c"],
+Cell[CellGroupData[{
+Cell[845, 30, 162, 3, 84, "Section",ExpressionUUID->"655dfefd-bdbf-4e2a-ade3-2b045bdc1a3e"],
+Cell[CellGroupData[{
+Cell[1032, 37, 166, 3, 56, "Subsubsection",ExpressionUUID->"85a1e7d2-1ea5-47b8-884d-4a46ea9940d3"],
+Cell[1201, 42, 398, 6, 44, "Text",ExpressionUUID->"70270a07-adff-444e-8ff3-9f3f820ff1f0"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1636, 53, 164, 3, 56, "Subsubsection",ExpressionUUID->"047633a0-4913-423d-8fec-2673a608205b"],
+Cell[1803, 58, 571, 9, 44, "Text",ExpressionUUID->"52518c10-1706-4105-a99e-335bc092f3bf"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2411, 72, 196, 4, 56, "Subsubsection",ExpressionUUID->"d5a2135d-0094-4d50-9ef2-e343e5aa4ac7"],
+Cell[2610, 78, 670, 17, 246, "Text",ExpressionUUID->"c33f9ae3-8c1b-4aa2-a9ad-b3d922c6a040"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3329, 101, 162, 3, 86, "Chapter",ExpressionUUID->"0a8d6108-ad1f-42b4-848d-010f40303942"],
+Cell[CellGroupData[{
+Cell[3516, 108, 197, 3, 84, "Section",ExpressionUUID->"1c5917e5-07c7-4563-844b-20d343ecf7b0"],
+Cell[3716, 113, 1233, 22, 217, "Text",ExpressionUUID->"5a8c7a08-4bbb-428c-bb46-203a0a5dcc6c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4986, 140, 156, 3, 84, "Section",ExpressionUUID->"b00289cf-43a0-4157-ac05-54d868327c4d"],
+Cell[5145, 145, 328, 7, 40, "Item",ExpressionUUID->"c7e710d3-f402-4978-9912-b5253dd00ef2"],
+Cell[5476, 154, 456, 9, 67, "Item",ExpressionUUID->"d1d07e71-bbe2-4045-b952-cf0e28addaf9"],
+Cell[5935, 165, 367, 7, 67, "Item",ExpressionUUID->"cbc469be-d6c4-4b90-b4d3-412317de4be0"],
+Cell[6305, 174, 325, 7, 40, "Item",ExpressionUUID->"98745ffb-8350-473a-a049-f45d7d3c349a"],
+Cell[6633, 183, 292, 6, 40, "Item",ExpressionUUID->"82701c97-c40b-4b5e-b5ec-2bacdd57438c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6962, 194, 161, 3, 84, "Section",ExpressionUUID->"2feb20db-dae3-46af-86bb-942b3dc4bab4"],
+Cell[CellGroupData[{
+Cell[7148, 201, 5911, 131, 285, "Input",ExpressionUUID->"9c5afafb-7911-4649-8fb0-3b9824ae7199"],
+Cell[13062, 334, 38687, 908, 426, "Output",ExpressionUUID->"0bdde2b1-2e07-42a0-a9de-7e039311045a"]
+}, {2}]],
+Cell[CellGroupData[{
+Cell[51783, 1247, 213, 4, 56, "Subsubsection",ExpressionUUID->"d7f238e0-6aa1-4a9e-be70-a69019531cc2"],
+Cell[51999, 1253, 250, 4, 40, "Item",ExpressionUUID->"db6ebb0c-001e-42c0-9ffc-dd98ee5157c0"],
+Cell[52252, 1259, 338, 7, 40, "Item",ExpressionUUID->"8b54a961-fd75-45f8-b1ae-f65cd0b965d7"],
+Cell[52593, 1268, 486, 9, 40, "Item",ExpressionUUID->"4e1f5f54-7137-48bf-b93e-6db20942ca1c"],
+Cell[53082, 1279, 509, 9, 40, "Item",ExpressionUUID->"bc652c3b-4e6f-48cd-aac2-cc0b1cde2efd"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[53628, 1293, 606, 10, 67, "Subsection",ExpressionUUID->"756d75c2-14dd-4fec-8499-d7b15d17c231"],
+Cell[54237, 1305, 164, 3, 40, "Item",ExpressionUUID->"667871bf-a4c9-4861-9625-51def220415d"],
+Cell[54404, 1310, 224, 5, 40, "Item",ExpressionUUID->"a6572b85-049c-4c23-9906-5684f4b29d63"],
+Cell[54631, 1317, 314, 7, 40, "Item",ExpressionUUID->"f527bb71-b228-4a2c-b7cf-092624ea68c7"],
+Cell[54948, 1326, 280, 6, 40, "Item",ExpressionUUID->"ca013c52-0434-4b23-b8b0-89209ea75a02"],
+Cell[55231, 1334, 240, 6, 40, "Item",ExpressionUUID->"9d6801f0-c3d7-421a-846b-a28277ee4332"],
+Cell[55474, 1342, 431, 8, 67, "Item",ExpressionUUID->"656f74bf-dc78-4e4a-a85c-0cdd03aedc33"],
+Cell[CellGroupData[{
+Cell[55930, 1354, 470, 7, 56, "Subsubsection",ExpressionUUID->"5b0e7f8a-f1a7-425f-b90d-4e462248cf0c"],
+Cell[CellGroupData[{
+Cell[56425, 1365, 359, 7, 40, "Item",ExpressionUUID->"bf6f2d55-4d2c-49ad-a383-b261cce988f3"],
+Cell[56787, 1374, 358, 7, 34, "Subitem",ExpressionUUID->"3f3437f8-5e61-4d65-8c57-60ddefd236e6"],
+Cell[57148, 1383, 287, 4, 34, "Subitem",ExpressionUUID->"c1bdf9bb-ee6c-46c7-b645-d724bda08ff6"],
+Cell[57438, 1389, 339, 7, 34, "Subitem",ExpressionUUID->"126af75b-f598-49e2-b7e3-0927e76e5d35"],
+Cell[57780, 1398, 316, 6, 34, "Subitem",ExpressionUUID->"f9aef6d9-d0e0-494c-b640-2471fb06cde0"]
+}, Open  ]],
+Cell[58111, 1407, 316, 5, 40, "Item",ExpressionUUID->"98405425-7555-448f-9e68-850e2369e5f0"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[58476, 1418, 549, 9, 67, "Subsection",ExpressionUUID->"abdb4725-965b-4e12-9e48-9c2f33b2259a"],
+Cell[59028, 1429, 328, 7, 40, "Item",ExpressionUUID->"18a43d95-b4b4-4996-9753-b8ebbb8741f8"],
+Cell[59359, 1438, 381, 7, 40, "Item",ExpressionUUID->"bfda2946-eda6-4773-9f43-3dccdf2164da"],
+Cell[59743, 1447, 315, 6, 40, "Item",ExpressionUUID->"57151140-c686-4686-ac2d-ade686e3f604"],
+Cell[60061, 1455, 297, 7, 40, "Item",ExpressionUUID->"61404487-6882-451d-9195-7c0cb5fb62f6"],
+Cell[60361, 1464, 292, 4, 40, "Item",ExpressionUUID->"cb716f30-5a52-4620-bc3e-5cd9ec71ebb2"],
+Cell[CellGroupData[{
+Cell[60678, 1472, 353, 5, 56, "Subsubsection",ExpressionUUID->"54550d2c-8fcd-402a-b11a-38d0324e2e6c"],
+Cell[CellGroupData[{
+Cell[61056, 1481, 297, 6, 40, "Item",ExpressionUUID->"c891c337-7742-4fed-9a45-d0cc0a50fd03"],
+Cell[61356, 1489, 202, 3, 34, "Subitem",ExpressionUUID->"f224006e-6586-4cf2-b2fe-4493837e1bd2"],
+Cell[61561, 1494, 227, 5, 34, "Subitem",ExpressionUUID->"82dd344f-a9f5-4401-a536-b0657413aadf"],
+Cell[61791, 1501, 275, 6, 34, "Subitem",ExpressionUUID->"5f5dd9a6-5146-4531-b362-ac3efb7383a1"],
+Cell[62069, 1509, 170, 3, 34, "Subitem",ExpressionUUID->"133f6e17-7917-49fb-ab8b-a74ac0b6980d"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[62288, 1518, 189, 3, 56, "Subsubsection",ExpressionUUID->"ef559541-eeb0-4f52-9497-902e297badb8"],
+Cell[62480, 1523, 239, 6, 40, "Item",ExpressionUUID->"74b7be4a-df1a-497e-bcf8-b640ece9085c"],
+Cell[CellGroupData[{
+Cell[62744, 1533, 309, 7, 40, "Item",ExpressionUUID->"6fce2597-f066-4157-98eb-85341eaf44b8"],
+Cell[63056, 1542, 223, 4, 34, "Subitem",ExpressionUUID->"977a6371-e2ef-4724-aeec-7e0366fb67b8"],
+Cell[63282, 1548, 207, 4, 34, "Subitem",ExpressionUUID->"8c41afa0-002b-4d1d-83ae-1efaf1bb7a0e"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[63550, 1559, 430, 8, 67, "Subsection",ExpressionUUID->"ab6394fd-c080-4c51-a089-58f04726be08"],
+Cell[63983, 1569, 235, 6, 40, "Item",ExpressionUUID->"5090ec30-8ea0-4be5-bdb9-d6827722962b"],
+Cell[64221, 1577, 249, 4, 40, "Item",ExpressionUUID->"83f4cacd-3095-45fd-befd-408c7e729358"],
+Cell[64473, 1583, 327, 7, 40, "Item",ExpressionUUID->"bf63fcfb-0ba4-4c73-a610-aa455f209343"],
+Cell[64803, 1592, 273, 6, 40, "Item",ExpressionUUID->"5202f77a-fc04-482b-b77c-27553668b3b9"],
+Cell[65079, 1600, 257, 6, 40, "Item",ExpressionUUID->"4372e763-b8c4-4034-8ab5-3102a67bfe12"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[65385, 1612, 156, 3, 84, "Section",ExpressionUUID->"869bbb82-54c8-48c3-8171-59a23797d078"],
+Cell[65544, 1617, 399, 11, 40, "Item",ExpressionUUID->"6066ab29-ba5e-435c-92cd-c888c080e989"],
+Cell[65946, 1630, 398, 8, 40, "Item",ExpressionUUID->"23e3a632-3f22-4333-b433-588ee89caf8b"],
+Cell[CellGroupData[{
+Cell[66369, 1642, 264, 4, 40, "Item",ExpressionUUID->"2167e464-15d7-4b7a-9d72-665b2dedce0d"],
+Cell[66636, 1648, 391, 8, 34, "Subitem",ExpressionUUID->"bdce53bc-ad8e-4214-af92-2a4438e31e03"],
+Cell[67030, 1658, 390, 8, 34, "Subitem",ExpressionUUID->"054045ac-2d6c-4de9-b80b-6d4eef572b18"],
+Cell[67423, 1668, 394, 11, 34, "Subitem",ExpressionUUID->"b8b49f3a-cab1-46c3-bb6d-b0ec6824d9d9"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[67854, 1684, 612, 15, 40, "Item",ExpressionUUID->"1724248f-f9d8-4d2e-b458-0bf5ae190c3c"],
+Cell[CellGroupData[{
+Cell[68491, 1703, 426, 8, 58, "Subitem",ExpressionUUID->"e0b65401-d57a-4ae0-b4bd-154d401683c6"],
+Cell[68920, 1713, 160, 3, 31, "Subsubitem",ExpressionUUID->"276bf45e-f624-4546-bae0-4ee0a6e095c6"],
+Cell[69083, 1718, 166, 3, 31, "Subsubitem",ExpressionUUID->"16277fb7-0cfe-4967-a253-aca963232160"],
+Cell[69252, 1723, 170, 3, 31, "Subsubitem",ExpressionUUID->"4ac848c1-c5c9-4f56-899d-6d21e4ef0526"],
+Cell[69425, 1728, 158, 3, 31, "Subsubitem",ExpressionUUID->"e166111b-7a9f-4f41-ba1b-f96c7e734175"],
+Cell[69586, 1733, 166, 3, 31, "Subsubitem",ExpressionUUID->"1904810c-6861-445c-87ff-76c94928ad8a"],
+Cell[69755, 1738, 193, 3, 31, "Subsubitem",ExpressionUUID->"31fadf7d-721a-4889-805b-58ff2a49a9d5"],
+Cell[69951, 1743, 167, 3, 31, "Subsubitem",ExpressionUUID->"a0ff1e88-f166-437a-8337-15c13229bca9"],
+Cell[70121, 1748, 171, 3, 31, "Subsubitem",ExpressionUUID->"8f34a17b-e04c-49fe-996f-bcaac6bec1ec"],
+Cell[70295, 1753, 168, 3, 31, "Subsubitem",ExpressionUUID->"40f027d3-6dbb-4953-827d-9eabbca51d5d"]
+}, Open  ]]
+}, Open  ]],
+Cell[70490, 1760, 511, 11, 40, "Item",ExpressionUUID->"bd2735ba-5b1d-48c2-8ab5-7edb98f71c61"],
+Cell[71004, 1773, 619, 13, 40, "Item",ExpressionUUID->"76b5a4ca-e453-43ed-aaf1-8ee40f8cb8cd"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
